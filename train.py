@@ -7,7 +7,7 @@ from torch import nn
 from torch.nn.utils.rnn import pack_padded_sequence
 from models import Encoder, DecoderWithAttention
 from datasets import *
-from utils import *
+from utils_local import *
 from nltk.translate.bleu_score import corpus_bleu
 
 # Data parameters
